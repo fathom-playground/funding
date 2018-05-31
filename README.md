@@ -1,70 +1,113 @@
-The Playgrounds funds are controlled by [this](LINK TO ETHERSCAN) multi-sig with
-keys held by X parties.
+WORK IN PROGRESS
 
-Anyone can donate funds directly to this address and can be publicly recognized
-in the `DONORS` file.
-
-All funds for the playground will be directly distributed to Adventurers and
-Reviewers as described [here](https://github.com/fathom-playground/playground).
+# Funding the Playground
 
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
 **Table of Contents**
 
-- [-](#-)
-    - [Questions we will answer](#questions-we-will-answer)
-    - [Data Points](#data-points)
-    - [Reflection and Moving forward](#reflection-and-moving-forward)
-    - [Why fund the Playground](#why-fund-the-playground)
-        - [Research and Community](#research-and-community)
-        - [Attracting Diverse Ideas](#attracting-diverse-ideas)
-        - [New Learning Systems and Tools](#new-learning-systems-and-tools)
-            - [Fathom](#fathom)
+- [Funding the Playground](#funding-the-playground)
+    - [What is the Playground?](#what-is-the-playground)
+    - [Who are we?](#who-are-we)
+    - [Funds  in the Playground](#funds--in-the-playground)
+- [Vision](#vision)
+    - [Decentralized Systems](#decentralized-systems)
+- [v1 Roadmap](#v1-roadmap)
+    - [Areas to validate](#areas-to-validate)
+        - [1. Fathom](#1-fathom)
+            - [Key Questions](#key-questions)
+        - [2. Playground Parameters and Structures](#2-playground-parameters-and-structures)
+    - [Learning from v1](#learning-from-v1)
 
 <!-- markdown-toc end -->
 
-## The needs of the Playground
-Currently we are bootstraping the Playground. The goal is to run 10 adventures
-in order to explore how they interact with the rules of the playground and to
-iterate on the systems. This requires $50,000 (at $5000 per adventure).
+## What is the Playground?
 
-Our timeline is flexible as it depends on the quality of adventure proposals but
-should be less than 6 months.
+The Playground is a distributed learning community around decentralized
+systems. We're funding 6-week long learning adventures to create knowledge
+and explore the future of learning organizations.
 
-### Questions we will answer
+You can read more [here](https://github.com/fathom-playground/playground)
 
-- What structures best support the needs of learners
-- Are the amounts and time-periods for adventures appropriate
-- Are there are any componenets of the playground that are't being supported appropriately
-- What are extraneous elements of the Playground
-- Which organizations and communities can we support and partner with
+## Who are we?
 
-### Data Points
-The main source of data in the playground is adventures themselves. These, and
-the things they link to, show the main impact and things achieved. 
+The fathom team has been working on building the foundational infrastructure
+for a decentralized learning ecosystem, an assessment system for the last 2 years.
 
-We can also use issues created to gauge what learners had trouble with, as well
-as comments left through the Playground process (on MRs, Proposals, and PLIPs)
+The Playground is essential to our roadmap for launching the fathom network.
+It is building towards our vision of an open universal learning ecosystem
+from multiple fronts, both providing the bootstrapping process for the
+network of assessment as well as exploring a plurarlity of interconnected
+learning structures.
 
-### Reflection and Moving forward
-Once 10 adventures have been funded and run we will carry out a public
-retrospective sourcing inputs from all the adventure participants as well as the
-reviewers and organizers. That will be organized in this repository and stored
-in the [retros](/retros) folder.
+## Funds  in the Playground
 
-This file will then be modified to reflect our current needs and goals.
+The Playground is funded directly by donations in ETH or DAI. These are then
+distributed directly to adventurers.
 
-## Why fund the Playground
-The Playground is creating a decentralized **learning** community around the
-concepts and ideas of decentralized systems. It is promoting both the creation
-of new knowldege _and_ new systems for creating knowledge.
+Funds will be controlled by a
+[multisig](https://github.com/ConsenSys/MultiSigWallet) with keys held by at
+least 3 parties.
 
-This can have a broad impact, both in the field of decentralized systems and
-on learning in all areas.
+Funds are directly distributed to adventurers via smart-contracts that permit
+freezing but not withdrawing (a la Burnable Payments). This process is
+detailed [here](https://github.com/fathom-playground/playground/#how-does-it-work)
 
-### Research and Community
+# Vision
+The Playground is a testing ground for learning. We want to explore how new
+systems, tools, and ideas can help people create knowledge. 
 
-### Attracting Diverse Ideas
+It's a space in which these structures can incubate, where they
+can be developed by a community of like-intentioned individuals thinking
+deeply about learning and how can be pushed forward.
 
-### New Learning Systems and Tools
+However, this is not meant to be divorced from concrete utility. Learning must be
+tied to the goals and needs of real beings and communities. The Playground
+reflects that and aims to create value in the field it operates, decentralized
+systems. We want to push forward ideas and the research systems that create
+them, as well as the resources and tools individuals use to learn them.
 
-#### Fathom
+In all this the Playground should be deeply connected to the broader community
+of learners, working towards collective goals.
+
+## Decentralized Systems
+
+This (re)emerging field is the perfect vanguard for a wave of new powerful
+learning systems. Not only does it have a breakneck pace of development, but
+it's ideas and concepts provide tools for thinking about and restructuring
+learning in the form of consensus systems, cryptography, and data structures.
+
+# v1 Roadmap
+For the first step we're keeping the Playground small. We will be running 10
+adventures over a maximum of 3 months.
+
+Our goal is to validate the core mechanisms of the Playground to enable us to
+iterate on it's design.
+
+## Areas to validate 
+### 1. Fathom 
+Fathom is a key part of the Playground. A decentralized system of assessment
+is essential for individuals to be able to shape their own learning. The
+Playground is intended to explore how such a system would be used in a
+community of learners. 
+
+#### Key Questions
+- What tools and systems are neccessary for interacting with the fathom
+protocol
+- What are the most immediate and natural use-cases for decentralized
+credentials in a learning community
+- Are individuals able to come to consensus on assessments
+- Are individuals able to create the concepts they need
+
+### 2. Playground Parameters and Structures
+- Are the amounts, duration, and constraints around adventures optimal
+- Are the tools and systems we're using to collaborate working towards our goals
+- Is our review process effective and fair?
+
+## Learning from v1
+We'll be conducting incoming and outgoing interviews with all adventurers
+and a sample of adventure applicants.
+
+These will then be compiled into a public retrospective before we fund any
+additional adventures. This will be stored in the [retros](/retros) folder. 
+This file will then be changed to incorporate any differences in our funding
+process as well as our new roadmap moving forward.
